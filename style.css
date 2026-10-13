@@ -1,14 +1,50 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Royale</title>
-</head>
-<body>
 
-    <h1>Mini Royale</h1>
-    <p>¡Bienvenido a Mini Royale!</p>
+body {
+    background: #20242b;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 
-</body>
-</html>
+h1 {
+    color: #ffd54a;
+}
+
+#campo {
+    width: 340px;
+    height: 500px;
+    margin: 20px auto;
+    background: #64b85a;
+    border: 4px solid #347d35;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.lado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.torre {
+    background: #e5e5e5;
+    border: 3px solid #777;
+    border-radius: 10px;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+#rio {
+    background: #48a9e6;
+    padding: 18px 0;
+    border-top: 3px solid #287db4;
+    border-bottom: 3px solid #287db4;
+}
+
